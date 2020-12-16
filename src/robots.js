@@ -3,7 +3,7 @@ export const robots = [
     id: 1,
     name: 'Steven Nelson',
     username: 'slnelshm',
-    positon: 'Current IT Supervisor',
+    position: 'Current IT Supervisor',
     speciality: 'Management',
     nickname: 'The Bossman',
     hours: '7am - 3pm Mon - Fri',
@@ -17,7 +17,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'Printers, Truck Mounts & anything really old',
     nickname: 'Mr. Thick Skin',
-    hours: '7am - 3pm Mon - Fri',
+    hours: 'Mon - Fri (7am - 3pm)',
+    phone: '(608) 846-8180',
     email: 'keith.sturm@walgreens.com'
   },
   {
@@ -27,7 +28,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'Talking to girls & pushups',
     nickname: 'The Dresonator',
-    hours: '3pm - 11pm Sun - Thur',
+    hours: 'Sun - Thur (3pm - 11pm)',
+    phone: '(608) 846-8180',
     email: 'rick.dresen@walgreens.com'
   },
   {
@@ -37,7 +39,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'AS400 & RF Guns/Gladiators',
     nickname: 'Ice Princess',
-    hours: '8am - 4pm Mon, Tues, Wed, Thur, 9pm - 5pm Fri',
+    hours: 'Mon, Tues, Wed, Thur (8am - 4pm), Fri (9pm - 5pm)',
+    phone: '(608) 846-8180',
     email: 'gina.graville@walgreens.com'
   },
   {
@@ -47,7 +50,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'PC troubleshooting & Web Development',
     nickname: 'JohnBoy',
-    hours: 'Mon. to Fri. 5pm - 1am',
+    hours: 'Mon - Fri (5pm - 1am)',
+    phone: '(608) 846-8180',
     email: 'john.gehring@walgreens.com'
   },
   {
@@ -57,7 +61,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'AS400 & OCE 7000 Printer Troubleshooting',
     nickname: 'Old Fart',
-    hours: 'Sun. 10am - 6pm, Mon. - Thur. 3pm - 11pm',
+    hours: 'Sun (10am - 6pm), Mon - Thu (3pm - 11pm)',
+    phone: '(608) 846-8180',
     email: 'lloyd.keen@walgreens.com'
   },
   {
@@ -67,7 +72,8 @@ export const robots = [
     position: 'DC IT Support Specialist',
     speciality: 'PC support & Bringing in wife\'s brownies',
     nickname: 'Grumpy Cat',
-    hours: '11pm - 7am Sun - Thur.',
+    hours: 'Sun - Thu (11pm - 7am)',
+    phone: '(608) 846-8180',
     email: 'jon.maly@walgreens.com'
   },
   /* {
@@ -78,6 +84,7 @@ export const robots = [
     speciality: 'Forklift & saying Yo all the time',
     nickname: 'Mr. Yo',
     hours: 'Who knows',
+    phone: '(608) 846-8180',
     email: 'ryne.collies@walgreens.com'
   },*/
   {
@@ -86,18 +93,20 @@ export const robots = [
     username: 'coglehm',
     position: 'DC IT Support Backup',
     speciality: 'Filling in for absent support specialists',
-    nickname: '',
+    nickname: 'Mrs. Mysterious',
     hours: 'Whenever she is needed. Times vary.',
+    phone: '(608) 846-8180',
     email: 'cheryl.ogle@walgreens.com'
   },
-  {
+  /* {
     id: 10,
     name: 'Rick Walton',
     username: 'rawaltzr',
     position: 'Asset Protection Specialist',
     speciality: 'Databases & Protecting your assets',
     nickname: 'Angry Bird',
-    hours: '5pm - 1am Mon - Fri',
+    hours: 'Mon - Fri (5pm - 1am)',
+    phone: '(608) 846-8555',
     email: 'rick.walton@walgreens.com'
-  }
+  } */
 ];

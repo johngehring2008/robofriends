@@ -16,3 +16,21 @@
   h2 {
     color: #000;
   }
+
+  .info {
+    background-position: center;
+    height: 300px;
+    width: 300px;
+  }
+
+  .info h4 {
+    margin: .5rem;
+    padding: 5px 2px;
+    color:#feffad;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .info span {
+    color: rgb(208, 173, 255);
+  }

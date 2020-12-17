@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ name, email, id, position, speciality, nickname, hours, phone }) => {
+const Card = ({ firstname, lastname, email, id, position, speciality, nickname, hours, phone }) => {
   return (
     <a href={`mailto:${email}`} className='hide-child'>
 
@@ -12,10 +12,11 @@ const Card = ({ name, email, id, position, speciality, nickname, hours, phone })
           <h4><span>Nickname:</span> {nickname}</h4>
           <h4><span>Hours:</span> {hours}</h4>
           <h4><span>Phone:</span> {phone}</h4>
+          <h4><span>Click to email:</span> {firstname}</h4>
         </div>
       </div>
       <div>
-        <h2>{name}</h2>
+        <h2>{firstname} {lastname}</h2>
         {email}
       </div>
       

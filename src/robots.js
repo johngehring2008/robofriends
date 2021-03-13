@@ -20,7 +20,7 @@ export const robots = [
     username: 'kasturm',
     position: 'DC IT Support Specialist',
     speciality: 'Printers, Truck Mounts, Thinclients, AS400 & Music',
-    nickname: 'The Maestro',
+    nickname: 'N/A',
     hours: 'Mon - Fri (7am - 3pm)',
     phone: '(608) 846-8180',
     email: 'keith.sturm@walgreens.com'
@@ -46,7 +46,7 @@ export const robots = [
     username: 'ggravill',
     position: 'DC IT Support Specialist',
     speciality: 'AS400, RF Guns/Gladiators & A Great Memory',
-    nickname: 'Ice Princess',
+    nickname: 'N/A',
     hours: 'Mon, Tue, Wed, Thu (8am - 4pm), Fri (9pm - 5pm)',
     phone: '(608) 846-8180',
     email: 'gina.graville@walgreens.com'

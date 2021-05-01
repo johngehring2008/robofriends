@@ -8,8 +8,8 @@ import './App.css';
 
 // Below if statement is polyfill for the includes method used below for IE11
 if (!String.prototype.includes) {
+  // eslint-disable-next-line no-extend-native
   String.prototype.includes = function(search, start) {
-    'use strict';
     if (typeof start !== 'number') {
       start = 0;
     }

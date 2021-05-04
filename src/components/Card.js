@@ -6,7 +6,7 @@ const Card = ({ firstname, lastname, email, id, position, speciality, nickname, 
     <a href={`mailto:${email}`} className='hide-child'>
 
     <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 cover'>
-      <div className='info' style={{ backgroundImage: `url(../../../../../../../images/robosupport/${id}.png?200x200)` }}>
+      <div className='info' style={{ backgroundImage: `url(robotImages/${id}.png?200x200)` }}>
         <div className='h-100 w-100 child bg-black-70 br3'>
           <h4><span>Position:</span> {position}</h4>
           <h4><span>Specialities:</span> {speciality}</h4>
